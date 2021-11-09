@@ -2,8 +2,9 @@
 <html>
 
 <head>
-  <title>Projeto Site - Lojas</title>
+  <title>Projeto Site - Cadastro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Latest compiled and minified CSS -->
   <link href="assets\css\bootstrap.min.css" rel="stylesheet">
   <!-- Link bootstrap icons -->
@@ -16,6 +17,7 @@
 </head>
 
 <body>
+
   <header>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -100,93 +102,91 @@
       </div>
     </div>
   </header>
-  <section id=lojas>
-    <main class="container">
-      <div id="boxlojas" style="background-image: url('assets/img/lojas-onde.jpg'); justify-content: center;">
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">São Paulo</strong>
-              <h3 class="mb-0">Morumbi</h3>
-              <p class="card-text mb-auto">Confira os dias e horários de funcionamento para nos visitar!</p>
-              <a href="#" class="stretched-link">Localização</a>
-            </div>
-            <div class="col-auto d-none d-lg-block" style="background-image: url('assets\img\lojastabilo.jpg')";>
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+  <section id="formulario">
 
-            </div>
+    <head>
+      <meta charset="UTF-8" />
+      <title>Formulário de Login e Registro com HTML5 e CSS3</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+      <div class="container">
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+
+        <div class="content">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="assets\fonts\Roboto" rel="stylesheet">
+          <!--FORMULÁRIO DE LOGIN-->
+          <div id="login">
+            <form method="post" action="">
+              <h1>Login</h1>
+              <p class="form">
+                <label for="nome_login">Seu nome</label>
+                <input id="nome_login" name="nome_login" required="required" type="text"
+                  placeholder="ex. contato@htmlecsspro.com" />
+              </p>
+
+              <p class="form">
+                <label for="email_login">Seu e-mail</label>
+                <input id="email_login" name="email_login" required="required" type="password"
+                  placeholder="ex. senha" />
+              </p>
+
+              <p class="form">
+                <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                <label for="manterlogado">Manter-me logado</label>
+              </p>
+
+              <p>
+                <input type="submit" value="Logar" />
+              </p>
+
+              <p class="link">
+                Ainda não tem conta?
+                <a href="#paracadastro">Cadastre-se</a>
+              </p>
+            </form>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">São Paulo</strong>
-              <h3 class="mb-0">Av. Paulista</h3>
-              <p class="card-text mb-auto">Confira os dias e horários de funcionamento para nos visitar!</p>
-              <a href="#" class="stretched-link">Localização</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">Rio de Janeiro</strong>
-              <h3 class="mb-0">Barra da Tijuca</h3>
-              <p class="card-text mb-auto">Confira os dias e horários de funcionamento para nos visitar!</p>
-              <a href="#" class="stretched-link">Localização</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+          <!--FORMULÁRIO DE CADASTRO-->
+          <div id="cadastro">
+            <form method="post" action="">
+              <h1>Cadastro</h1>
 
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-primary">Rio de Janeiro</strong>
-              <h3 class="mb-0">Lapa</h3>
-              <p class="card-text mb-auto">Confira os dias e horários de funcionamento para nos visitar!</p>
-              <a href="#" class="stretched-link">Localização</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                  dy=".3em">Thumbnail</text>
-              </svg>
+              <p class="form">
+                <label for="nome_cad">Seu nome</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+              </p>
 
-            </div>
+              <p class="form">
+                <label for="email_cad">Seu e-mail</label>
+                <input id="email_cad" name="email_cad" required="required" type="email"
+                  placeholder="contato@htmlecsspro.com" />
+              </p>
+
+              <p class="form">
+                <label for="senha_cad">Sua senha</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234" />
+              </p>
+
+              <p class="form">
+                <input type="submit" value="Cadastrar" />
+              </p>
+
+              <p class="link">
+                Já tem conta?
+                <a href="#paralogin"> Ir para Login </a>
+              </p>
+            </form>
           </div>
         </div>
       </div>
-    </main>
   </section>
+
   <div class="container">
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
