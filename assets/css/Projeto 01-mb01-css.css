@@ -34,20 +34,20 @@
 .botao {
   background-color: #DAC2DE;
   color: black;
-  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   border-radius: 0.25rem;
   border: none;
 }
 .cabecalho {
   background-color: #ececee;
   color: black;
-  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .li-img-principal {
   text-align: center;
@@ -70,7 +70,7 @@ h2 {
 }
 
 .p2 {
-  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   font-size: 20px;
 }
 
@@ -90,18 +90,20 @@ h2 {
   font-size: 35px;
 }
 .titulos {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
 
 .produtos{
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 } 
-.rowsobre {
+#sobreastabilo {
   display: flex;
   flex-wrap: wrap;
-  font-family: "Roboto", sans-serif;}
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+}
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     width: 100%;
@@ -131,28 +133,19 @@ h2 {
   min-height: 560px;    
   margin: 0px auto;
   position: relative;   
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
-h1{
+h1 #formulario{
   font-size: 28px;
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align:left;
   padding-bottom: 30px;
 }
-
-#cadastro, 
-#login{
-  top: 0px;
-  width: 68%;   
-  padding: 18px 6%;
-  margin: 0 0 35px 0;
-  background: #f7f7f7;
-  border: 1px solid #DAC2DE;
    
-}#boxlojas {
+#boxlojas {
   padding: 10rem;
   margin-bottom: 3rem;
   height: 200px;
@@ -162,7 +155,7 @@ h1{
  background-position: center center;
  background-size:cover;
  background-repeat: no-repeat;
- font-family: "Roboto", sans-serif;
+ font-family: 'Roboto', sans-serif;
 }
 .col-auto {
   flex: 0 0 auto;
@@ -173,3 +166,13 @@ background-position: center center;
  background-size:cover;
  background-repeat: no-repeat;
 }
+#lojas{
+  font-family: 'Roboto', sans-serif;
+font-style: italic;
+color:#EA5274;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
