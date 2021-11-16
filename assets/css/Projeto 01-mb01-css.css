@@ -103,6 +103,7 @@ h2 {
   flex-wrap: wrap;
   font-family: 'Roboto', sans-serif;
 font-style: normal;
+padding: 20px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -176,3 +177,7 @@ color:#EA5274;
   flex-direction: row;
   flex-wrap: wrap;
 } 
+
+.imagem-form{
+  width: 100%;
+}
